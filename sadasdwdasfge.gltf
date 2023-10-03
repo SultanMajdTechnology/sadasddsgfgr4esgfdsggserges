@@ -1,0 +1,214 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20230922.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "51abb84_3dh_Landing_Corner_Sofa_proxy"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1
+        }
+      ],
+      "name": "51abb84_3dh_Landing_Corner_Sofa_proxy"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 365952,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 297919,
+      "max": [
+        2.06411743,
+        0.7916503,
+        1.15029144
+      ],
+      "min": [
+        -0.942054,
+        0.0456913263,
+        -0.965932548
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3575028,
+      "componentType": 5126,
+      "count": 297919,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 297919,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1463808,
+      "componentType": 5125,
+      "count": 20544,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7150056,
+      "componentType": 5126,
+      "count": 17358,
+      "max": [
+        2.03073382,
+        0.05034433,
+        1.12114036
+      ],
+      "min": [
+        -0.905814052,
+        -8.047209E-10,
+        -0.921231568
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7358352,
+      "componentType": 5126,
+      "count": 17358,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2383352,
+      "componentType": 5126,
+      "count": 17358,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1545984,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1545984,
+      "byteLength": 7566648,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9112632,
+      "byteLength": 2522216,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "sadasdwdasfge.bin",
+      "byteLength": 11634848
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.450053632
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "Fabric_mtl #0"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.450053632
+      },
+      "name": "Wood_mtl #0"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "51abb84_Fabric_Nrm_3dh_raw.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "51abb84_Fabric_Diff_3dh_srgb.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "51abb84_Wood_Diff_3dh_srgb.jpg"
+    }
+  ],
+  "images": [
+    {
+      "uri": "51abb84_Fabric_Nrm_3dh_raw.jpg"
+    },
+    {
+      "uri": "51abb84_Fabric_Diff_3dh_srgb.jpg"
+    },
+    {
+      "uri": "51abb84_Wood_Diff_3dh_srgb.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}
